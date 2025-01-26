@@ -12,6 +12,8 @@ body{
   #logo{
     border:none;
     padding:0 10px 0 10px;
+    font-style:italic;
+    font-size: 1em;
   }
   #navbar li{
     display:inline-block;
