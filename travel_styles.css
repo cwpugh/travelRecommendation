@@ -1,6 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#main_title {
+    background-color: yellow;
+  }
 nav {
     float: right;
 }
