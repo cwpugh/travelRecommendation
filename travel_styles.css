@@ -2,6 +2,10 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+mainheader {
+    background-color: cornflowerblue;
+}
+
 #main_title {
     float: left;
     padding: 0;
