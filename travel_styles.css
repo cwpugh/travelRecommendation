@@ -44,7 +44,7 @@ body{
   }
 
   #team_div {
-    margin:10%;
+    margin:0 10% 0 10%;
     border-style: solid;
     border-color:#777;
     border-width: 3pt;  
@@ -52,7 +52,7 @@ body{
   }
 
   #contact_div {
-    margin:10%;
+    margin:0 10% 0 10%;
     border-style: solid;
     border-color:#777;
     border-width: 3pt;
