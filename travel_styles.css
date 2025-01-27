@@ -3,6 +3,7 @@ body{
     color:#000;
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
+    background-image: "travel_background.jpg";
   }
   .container {
     display:flex;
@@ -21,5 +22,5 @@ body{
   #navbar a{
     text-decoration:none;
     font-size:18px;
-    padding-right:15px;
+    padding-right:25px;
   }
