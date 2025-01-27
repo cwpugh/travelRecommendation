@@ -25,3 +25,7 @@ body{
     font-size:18px;
     padding-right:25px;
   }
+
+  #conditionInput {
+    font-size: 14pt;
+  }
