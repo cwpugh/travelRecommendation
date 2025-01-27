@@ -42,7 +42,15 @@ body{
     padding: 15px;
   }
 
-  #team #contact{
+  #team {
+    margin:10%;
+    border-style: solid;
+    border-color:#777;
+    border-width: 3pt;
+    padding: 15px;
+  }
+
+  #contact {
     margin:10%;
     border-style: solid;
     border-color:#777;
