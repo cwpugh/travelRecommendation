@@ -35,7 +35,15 @@ body{
   }
 
   #description {
-    margin-right: 50%;
+    margin-right: 70%;
+    border-style: solid;
+    border-color:#777;
+    border-width: 3pt;
+    padding: 15px;
+  }
+
+  #team #contact{
+    margin:10%;
     border-style: solid;
     border-color:#777;
     border-width: 3pt;
