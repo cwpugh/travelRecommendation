@@ -35,8 +35,9 @@ body{
   }
 
   #description {
-    block-size: 250px;
+    margin-right: 50%;
     border-style: solid;
-    border-color: #fff;
-    border-width: 5pt;
+    border-color:#777;
+    border-width: 3pt;
+    padding: 15px;
   }
