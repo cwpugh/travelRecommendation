@@ -3,7 +3,7 @@ body{
     color:#000;
     font-family: Arial, Helvetica, sans-serif;
     margin:0;
-    background-image: "travel_background.jpg";
+    background-image: url('travel_background.jpg');
   }
   .container {
     display:flex;
