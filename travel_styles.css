@@ -34,7 +34,7 @@ body{
     font-size: 48pt;
   }
 
-  #description {
+  #description_div {
     margin-right: 70%;
     border-style: solid;
     border-color:#777;
@@ -42,15 +42,15 @@ body{
     padding: 15px;
   }
 
-  #team {
+  #team_div {
     margin:10%;
     border-style: solid;
     border-color:#777;
-    border-width: 3pt;
+    border-width: 3pt;  
     padding: 15px;
   }
 
-  #contact {
+  #contact_div {
     margin:10%;
     border-style: solid;
     border-color:#777;
