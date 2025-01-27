@@ -29,3 +29,14 @@ body{
   #conditionInput {
     font-size: 10pt;
   }
+
+  h2 {
+    font-size: 48pt;
+  }
+
+  #description {
+    block-size: 250px;
+    border-style: solid;
+    border-color: #fff;
+    border-width: 5pt;
+  }
