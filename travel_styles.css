@@ -2,8 +2,9 @@ body{
     background-color:#fff;
     color:#000;
     font-family: Arial, Helvetica, sans-serif;
-    margin:0;
+    margin:25px;
     background-image: url('travel_background.jpg');
+  
   }
   .container {
     display:flex;
