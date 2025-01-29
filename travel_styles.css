@@ -94,3 +94,22 @@ body{
   #contactForm button:hover {
     background-color: #0056b3;
   }
+
+  #report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
+  
