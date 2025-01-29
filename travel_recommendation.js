@@ -1,14 +1,14 @@
 const btnSearch = document.getElementById('btnSearch');
 
     function searchKeyword() {
-        const input = document.getElementById('conditionInput').value.toLowerCase();
+        const input = document.getElementById('keywordInput').value.toLowerCase();
         const resultDiv = document.getElementById('result');
         resultDiv.innerHTML = '';
 
         fetch('travel_recommendation_api.json')
           .then(response => response.json())
           .then(data => {
-            const condition = data.conditions.find(item => item.name.toLowerCase() === input);
+            const keyword = data.conditions.find(item => item.name.toLowerCase() === input);
 
             if (condition) {
               const symptoms = condition.symptoms.join(', ');
