@@ -32,3 +32,8 @@ const btnSearch = document.getElementById('btnSearch');
       }
         btnSearch.addEventListener('click', searchKeyword);
 
+    function clearSearch() {
+          document.getElementById("keywordInput").value = "";
+        }
+
+
