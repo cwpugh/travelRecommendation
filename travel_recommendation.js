@@ -35,6 +35,7 @@ const btnClear = document.getElementById('btnClear');
 
     function clearSearch() {
           document.getElementById("keywordInput").value = "";
+        searchKeyword(); //ths should clear the form but not sure
         }
         btnClear.addEventListener('click', clearSearch);
 
