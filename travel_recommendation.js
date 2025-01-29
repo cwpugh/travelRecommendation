@@ -23,7 +23,7 @@ const btnClear = document.getElementById('btnClear');
               resultDiv.innerHTML += `<p><strong>Prevention:</strong> ${prevention}</p>`;
               resultDiv.innerHTML += `<p><strong>Treatment:</strong> ${treatment}</p>`;
             } else {
-              resultDiv.innerHTML = 'Condition not found.';
+              resultDiv.innerHTML = 'Keyword not found.';
             }
           })
           .catch(error => {
@@ -35,7 +35,8 @@ const btnClear = document.getElementById('btnClear');
 
     function clearSearch() {
           document.getElementById("keywordInput").value = "";
-        searchKeyword(); //ths should clear the form but not sure
+        const resultDiv = document.getElementById('result');
+        resultDiv.innerHTML = '';
         }
         btnClear.addEventListener('click', clearSearch);
 
