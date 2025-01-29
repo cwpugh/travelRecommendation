@@ -1,4 +1,5 @@
 const btnSearch = document.getElementById('btnSearch');
+const btnClear = document.getElementById('btnClear');
 
     function searchKeyword() {
         const input = document.getElementById('keywordInput').value.toLowerCase();
@@ -35,5 +36,6 @@ const btnSearch = document.getElementById('btnSearch');
     function clearSearch() {
           document.getElementById("keywordInput").value = "";
         }
+        btnClear.addEventListener('click', clearSearch);
 
 
