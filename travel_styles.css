@@ -11,6 +11,14 @@ body{
     justify-content:space-between;
     align-items:center; 
   }
+
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+
   #logo{
     border:none;
     padding:0 10px 0 10px;
